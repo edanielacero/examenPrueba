@@ -4,7 +4,7 @@ Feature:
     Para: Realizar transacciones
 Scenario:
     Given visito la pagina de transacciones
-    When lleno en el campo "monto" con "valor"
+    When lleno en el campo "monto" con "200"
     And presiono el boton "depositar"
     Then deberia mostrar "tu saldo es valor"
     
